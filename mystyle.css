@@ -164,7 +164,17 @@ header .logo {
     background-color: rgb(32, 110, 32);
     color: white;
     font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+.buy-button:hover {
+    background-color: #429229;
+}
+
 
 .extra{
     margin-left:30px;
